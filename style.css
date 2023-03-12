@@ -1,17 +1,17 @@
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
-    color:lightsalmon;
+    color:rgb(46, 24, 122);;
     text-align: center;
-    border: 2px solid green;
+    border: 2px solid black;
 }
 strong{
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: tomato;
-    border: 2px solid green;
+    color: rgb(46, 24, 122);;
+    border: 2px solid black;
     position: fixed;
     top: 20px;
-    right: 450px;
+    right: 250px;
 }
 .center{
     margin-left: auto;
@@ -19,31 +19,26 @@ strong{
 }
 
 table,tr,td{
-    border: 1px solid;
+    border: 2px solid;
     overflow-wrap: break-word;
-    color: lightsalmon;    
+    color: rgb(46, 24, 122);;    
 }
 div{
-    color:tomato;
-    font-size: 20px;
-    text-align: left;
+    color:rgb(46, 24, 122);
+    font-size: 15px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-body{
-    background: url("../images/back1.jpg"); 
-    background-repeat: no-repeat;
-    background-size: 1540px 900px;
 }
 div.sol{
     width: 20%;
-    height: 600px;
+    height: 1000px;
     float: left;
 }
 div.sag{
-    width: 66%;
+    width: 64%;
     float: right;
     position: fixed;
     top: 60px;
     right: 5px;
-    border: 2px solid green;
+    border: 2px solid black;
 }
